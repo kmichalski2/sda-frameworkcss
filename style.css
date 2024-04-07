@@ -1,0 +1,22 @@
+.carousel-item > img {
+    filter: brightness(0.4);
+}
+
+.carousel-caption {
+    bottom: 3rem;
+}
+
+.img-avatar {
+    width: 100px; 
+    height: 100px;
+}
+
+.gap-5 {
+    gap: 5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .carousel-item {
+        height: 50vh;
+    }
+}
