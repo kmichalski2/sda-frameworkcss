@@ -50,6 +50,84 @@
       </div>
     </header>
 
+    <main class="container">
+      <div class="row">
+        <div class="col-9">
+            <h4 class="mb-3">Billing address</h4>
+            <form class="needs-validation" novalidate>
+              <div class="row g-3">
+                <div class="col-6">
+                  <label for="firstname" class="form-label">Firstname</label>
+                  <input id="firstname" type="text" class="form-control" required />
+                </div>
+                <div class="col-6">
+                  <label for="lastname" class="form-label">Lastname</label>
+                  <input id="lastname" type="text" class="form-control" required />
+                </div>
+                <div class="col-12">
+                  <label for="username" class="form-label">Username</label>
+                  <div class="input-group">
+                    <span class="input-group-text">@</span>
+                    <input id="username" type="text" placeholder="Username" class="form-control" required />
+                  </div>
+                </div>
+                <div class="col-12">
+                  <label for="email" class="form-label">Email <span class="text-body-secondary">(Optional)</span></label>
+                  <input id="email" type="email" placeholder="you@example.com" class="form-control" />
+                </div>
+                <div class="col-12">
+                  <label for="address" class="form-label">Address</label>
+                  <input id="address" type="text" placeholder="1234 Main St" class="form-control" required />
+                </div>
+                <div class="col-12">
+                  <label for="address2" class="form-label">Address 2 <span class="text-body-secondary">(Optional)</span></label>
+                  <input id="address2" type="text" placeholder="Apartament or suite" class="form-control" />
+                </div>
+                <div class="col-5">
+                  <label for="country" class="form-label">Country</label>
+                  <select id="country" class="form-select" required>
+                    <option selected disabled>Choose...</option>
+                    <option value="1">Poland</option>
+                    <option value="2">Germany</option>
+                    <option value="3">France</option>
+                  </select>
+                </div>
+                <div class="col-4">
+                  <label for="state" class="form-label">State</label>
+                  <select id="state" class="form-select" required>
+                    <option value="1">Texas</option>
+                    <option value="2">Colorado</option>
+                    <option value="3">Florida</option>
+                  </select>
+                </div>
+                <div class="col-3">
+                  <label for="zip" class="form-label">ZIP</label>
+                  <input type="text" class="form-control" id="zip" required />
+                </div>
+              </div>
+              <hr class="my-4" />
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="sameShippingAsBilling">
+                <label class="form-check-label" for="sameShippingAsBilling">
+                  Shipping address is the same as my billing address
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="saveInformation">
+                <label class="form-check-label" for="saveInformation">
+                  Save this information for next time
+                </label>
+              </div>
+              <hr class="my-4" />
+              <h4 class="mb-3">Payment</h4>
+            </form>
+        </div>
+        <div class="col-3">
+          <h5>Your cart</h5>
+        </div>
+      </div>
+    </main>
+
     <footer class="container mt-5 pt-5 pb-2 border-top">
       <div class="row">
         <div class="col">
