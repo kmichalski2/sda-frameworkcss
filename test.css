@@ -1,0 +1,20 @@
+.card {
+
+    border-radius: 10px;
+    padding: 24px;
+    margin: 24px auto;
+    box-shadow: 0 20px 25px 1px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.card-icon {
+    flex-basis: 150px;
+    width: 64px;
+    height: 64px;
+}
